@@ -12,9 +12,10 @@ function setup(){
 
     box1 = new Box(200,300,50,50,"red");
     box2 = new Box(240,100,50,100,"green");
-    box3 = new Box(260,50,50,40,"orange")
-    box4 = new Box(230,70,50,20,"purple")
-    ground = new Ground(200,height,400,20)
+    box3 = new Box(260,50,50,40,"orange");
+    box4 = new Box(230,70,50,20,"purple");
+    box5 = new Box(200,200,50,50,"yellow");
+    ground = new Ground(200,height,400,20);
 }
 
 function draw(){
@@ -27,5 +28,6 @@ function draw(){
     box2.display();
     box3.display();
     box4.display();
+    box5.display();
     ground.display();
 }
